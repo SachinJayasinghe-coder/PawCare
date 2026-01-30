@@ -1,0 +1,101 @@
+[
+  {
+    "pet_id": 1,
+    "pet_name": "superman",
+    "pet_type": "Dog",
+    "pet_breed": "labrodor",
+    "owner_username": "induwarawij",
+    "notes": "jungle",
+    "created_at": "2025-10-21T04:55:10.699380+00:00",
+    "last_updated": "2025-10-21T05:46:12.062215+00:00",
+    "visit_count": 1
+  },
+  {
+    "pet_id": 2,
+    "pet_name": "iphone",
+    "pet_type": "rabbit",
+    "pet_breed": "german",
+    "owner_username": "induwarawij",
+    "notes": "muta pissu",
+    "created_at": "2025-10-21T06:26:11.088638+00:00",
+    "last_updated": "2025-10-21T06:28:49.606846+00:00",
+    "visit_count": 1
+  },
+  {
+    "pet_id": 3,
+    "pet_name": "antman",
+    "pet_type": "Dog",
+    "pet_breed": "ahsdhad",
+    "owner_username": "kaveesha",
+    "notes": "",
+    "created_at": "2025-10-21T06:28:01.911920+00:00",
+    "last_updated": "2025-10-21T06:28:01.911920+00:00",
+    "visit_count": 0
+  },
+  {
+    "pet_id": 4,
+    "pet_name": "aaa",
+    "pet_type": "Dog",
+    "pet_breed": "AAAA",
+    "owner_username": "sddd",
+    "notes": "",
+    "created_at": "2025-10-21T06:34:30.976834+00:00",
+    "last_updated": "2025-10-21T06:34:30.976834+00:00",
+    "visit_count": 1
+  },
+  {
+    "pet_id": 5,
+    "pet_name": "ganja man",
+    "pet_type": "hutta",
+    "pet_breed": "sfsdf",
+    "owner_username": "induwarawij",
+    "notes": "",
+    "created_at": "2025-10-24T03:58:41.002947+00:00",
+    "last_updated": "2025-10-24T03:58:41.002947+00:00",
+    "visit_count": 1
+  },
+  {
+    "pet_id": 6,
+    "pet_name": "wsfe",
+    "pet_type": "Dog",
+    "pet_breed": "",
+    "owner_username": "induwarawij",
+    "notes": "",
+    "created_at": "2025-10-24T05:34:59.348509+00:00",
+    "last_updated": "2025-10-24T05:34:59.348509+00:00",
+    "visit_count": 1
+  },
+  {
+    "pet_id": 7,
+    "pet_name": "ewqkfwjebf",
+    "pet_type": "Dog",
+    "pet_breed": "asdasd",
+    "owner_username": "induwarawij",
+    "notes": "",
+    "created_at": "2025-10-24T08:08:45.943908+00:00",
+    "last_updated": "2025-10-24T08:08:45.943908+00:00",
+    "visit_count": 1
+  },
+  {
+    "pet_id": 8,
+    "pet_name": "dsfsf",
+    "pet_type": "Dog",
+    "pet_breed": "",
+    "owner_username": "induwarawij",
+    "notes": "",
+    "created_at": "2025-10-24T08:15:12.455697+00:00",
+    "last_updated": "2025-10-24T08:15:12.455697+00:00",
+    "visit_count": 1
+  },
+  {
+    "pet_id": 9,
+    "pet_name": "ganja soma",
+    "pet_type": "Dog",
+    "pet_breed": "sdfsdfsdf",
+    "owner_username": "dilina123",
+    "notes": "",
+    "created_at": "2025-10-27T03:34:46.509795+00:00",
+    "last_updated": "2025-10-27T03:34:46.509795+00:00",
+    "visit_count": 1
+  }
+]

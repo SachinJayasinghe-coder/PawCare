@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Settings | PawCare</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="pet-container">
+    <h1>Settings</h1>
+    <p>Customize your account and notifications.</p>
+
+    <div class="services">
+      <div class="service-box">
+        <div class="icon">⚙️</div>
+        <h2>Profile</h2>
+        <p>Manage your account</p>
+      </div>
+      <div class="service-box">
+        <div class="icon">🔔</div>
+        <h2>Notifications</h2>
+        <p>Set reminders & alerts</p>
+      </div>
+    </div>
+
+    <a href="{{ url_for('home') }}" class="btn back-btn">Back</a>
+  </div>
+</body>
+</html>

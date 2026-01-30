@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Choose Login | PawCare</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="center-container">
+    <h1>Welcome to PawCare</h1>
+    <p>Please select your role to continue:</p>
+
+    <div class="menu-options">
+      <!-- 🧑‍⚕️ Owner login (Streamlit auth) -->
+      <a href="http://localhost:8501/?page=owner_login" class="menu-btn" target="_blank">
+        Owner
+      </a>
+
+      <!-- 🐾 Customer login -->
+      <a href="{{ url_for('dashboard') }}" class="menu-btn">
+        Customer
+      </a>
+    </div>
+
+    <a href="{{ url_for('home') }}" class="btn back-btn">Back</a>
+  </div>
+</body>
+</html>

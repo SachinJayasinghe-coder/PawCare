@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PawCare | Home</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="home-content">
+    <img src="https://cdn.dribbble.com/userupload/8247048/file/original-e2839a860db8165e773799bdbc86541f.jpg?resize=1600x1200&vertical=center"
+         alt="PawCare Logo" class="logo">
+    <h1>PawClinic</h1>
+    <p>Pet Care Management System</p>
+
+    <div class="menu-options">
+      <a href="{{ url_for('about') }}" class="menu-btn">About Us</a>
+      <a href="{{ url_for('settings') }}" class="menu-btn">Settings</a>
+      <a href="{{ url_for('go_continue') }}" class="menu-btn">Continue</a>
+
+    </div>
+  </div>
+</body>
+</html>

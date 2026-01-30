@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pet Services | PawCare</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <!-- Background -->
+  <div class="dashboard-bg"></div>
+
+  <div class="pet-container">
+    <h1>Pet Services</h1>
+    <p>Select an option below to manage your pet’s needs:</p>
+
+    <div class="services">
+      <!-- 🟢 Day Care button -->
+      <a href="http://localhost:8501/?page=daycare" class="service-box" target="_self">
+        <div class="icon">🐾</div>
+        <h2>Day Care</h2>
+        <p>Comfort & care daily</p>
+      </a>
+
+      <!-- 🟢 Appointments button -->
+      <a href="http://localhost:8501/?page=appointments" class="service-box" target="_self">
+        <div class="icon">📅</div>
+        <h2>Appointments</h2>
+        <p>Schedule with ease</p>
+      </a>
+    </div>
+
+    <a href="{{ url_for('home') }}" class="btn back-btn">Back</a>
+  </div>
+</body>
+</html>
